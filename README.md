@@ -14,9 +14,6 @@ Designed to showcase your Android apps, establish developer authority, boost org
   - Interactive **QR Code** card for instant camera-scan mobile installation from desktop visitors.
   - Feature highlights (500K+ offline words, US/UK accents, thesaurus, vocabulary quiz).
 - **Dedicated App Landing Page**: Located at [`apps/advanced-english-dictionary.html`](apps/advanced-english-dictionary.html) with full technical specifications (OS requirements, package ID, download size) and changelog.
-- **Modular App Portfolio Grid**:
-  - Interactive category filtering tabs (*All Apps*, *Education*, *Utilities*, *Coming Soon*).
-  - Ready to add unlimited new apps as your studio expands.
 - **Google Play Compliance Ready**:
   - Full **Privacy Policy** (`privacy-policy.html`) tailored for Google Play Store review.
   - **Terms of Service** (`terms.html`).

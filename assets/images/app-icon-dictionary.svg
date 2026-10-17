@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <linearGradient id="pageGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Base App Tile with Squircle (Play Store standard) -->
+  <rect x="8" y="8" width="240" height="240" rx="54" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+  
+  <!-- Subtle Internal Glow Grid -->
+  <circle cx="128" cy="128" r="90" fill="url(#accentGrad)" opacity="0.18" />
+
+  <!-- Book Base Structure -->
+  <g filter="url(#shadow)">
+    <!-- Book Left Spine/Page -->
+    <path d="M 128 72 C 105 58, 65 60, 48 68 L 48 184 C 65 176, 105 174, 128 188 Z" fill="url(#pageGrad)" />
+    <!-- Book Right Spine/Page -->
+    <path d="M 128 72 C 151 58, 191 60, 208 68 L 208 184 C 191 176, 151 174, 128 188 Z" fill="#f8fafc" />
+    <!-- Spine Center Dividing Line -->
+    <line x1="128" y1="70" x2="128" y2="188" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Left Page Details (Text Lines) -->
+  <rect x="62" y="86" width="46" height="5" rx="2.5" fill="#94a3b8" />
+  <rect x="62" y="99" width="40" height="4" rx="2" fill="#cbd5e1" />
+  <rect x="62" y="111" width="44" height="4" rx="2" fill="#cbd5e1" />
+  <rect x="62" y="123" width="36" height="4" rx="2" fill="#cbd5e1" />
+  <rect x="62" y="135" width="42" height="4" rx="2" fill="#cbd5e1" />
+
+  <!-- Large Stylized 'A' on Right Page -->
+  <text x="146" y="148" font-family="'Plus Jakarta Sans', 'Georgia', serif" font-size="64" font-weight="900" fill="url(#accentGrad)">
+    A
+  </text>
+  
+  <!-- Small phonetic mark below A -->
+  <text x="148" y="166" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#64748b">
+    /eɪ/ • DICT
+  </text>
+
+  <!-- Magnifying Glass / Offline Search Badge (Overlapping Bottom Right) -->
+  <g transform="translate(142, 142)">
+    <circle cx="44" cy="44" r="30" fill="#0f172a" stroke="url(#accentGrad)" stroke-width="3.5" />
+    <!-- Audio Wave or Search Sparkle inside lens -->
+    <path d="M 34 44 Q 38 36, 44 44 T 54 44" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" fill="none" />
+    <circle cx="44" cy="35" r="2.5" fill="#fde047" />
+    <!-- Handle -->
+    <line x1="66" y1="66" x2="84" y2="84" stroke="url(#accentGrad)" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+  <!-- Top "Offline" Ribbon / Badge -->
+  <g transform="translate(26, 26)">
+    <rect x="0" y="0" width="76" height="24" rx="12" fill="rgba(56, 189, 248, 0.2)" stroke="#38bdf8" stroke-width="1.2" />
+    <circle cx="12" cy="12" r="4" fill="#38bdf8" />
+    <text x="22" y="16" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">OFFLINE</text>
+  </g>
+</svg>

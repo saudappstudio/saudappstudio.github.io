@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 780" fill="none">
+  <defs>
+    <linearGradient id="phoneFrameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="screenBgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#131d2e" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Outer Phone Casing -->
+  <rect x="5" y="5" width="370" height="770" rx="46" fill="url(#phoneFrameGrad)" stroke="#475569" stroke-width="3" />
+  
+  <!-- Screen Area -->
+  <rect x="15" y="15" width="350" height="750" rx="36" fill="url(#screenBgGrad)" />
+
+  <!-- Camera Notch / Dynamic Island -->
+  <rect x="140" y="24" width="100" height="24" rx="12" fill="#020617" />
+  <circle cx="160" cy="36" r="4.5" fill="#1e293b" />
+  <circle cx="215" cy="36" r="3.5" fill="#0f172a" stroke="#334155" stroke-width="1" />
+
+  <!-- Status Bar Items -->
+  <text x="36" y="40" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">09:41</text>
+  <g transform="translate(305, 30)">
+    <!-- 5G icon -->
+    <path d="M 0 8 L 3 8 M 5 6 L 8 6 M 10 4 L 13 4 M 15 2 L 18 2" stroke="#f8fafc" stroke-width="2" stroke-linecap="round" />
+    <!-- Battery -->
+    <rect x="24" y="1" width="20" height="10" rx="2.5" fill="none" stroke="#f8fafc" stroke-width="1.2" />
+    <rect x="26" y="3" width="14" height="6" rx="1.5" fill="#38bdf8" />
+  </g>
+
+  <!-- App Header -->
+  <g transform="translate(30, 68)">
+    <text x="0" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#38bdf8">
+      ADVANCED ENGLISH DICTIONARY
+    </text>
+    <circle cx="310" cy="15" r="16" fill="#1e293b" />
+    <!-- Bookmark/Favorite icon -->
+    <path d="M 306 9 L 314 9 L 314 21 L 310 18 L 306 21 Z" fill="#fde047" />
+  </g>
+
+  <!-- Search Input Bar -->
+  <g transform="translate(30, 106)">
+    <rect x="0" y="0" width="320" height="50" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+    <!-- Magnifier -->
+    <circle cx="24" cy="25" r="7" stroke="#94a3b8" stroke-width="2" fill="none" />
+    <line x1="29" y1="30" x2="36" y2="37" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" />
+    
+    <text x="48" y="31" font-family="'Inter', sans-serif" font-size="16" font-weight="600" fill="#f8fafc">serendipity</text>
+    
+    <!-- Audio / Clear Icon -->
+    <circle cx="295" cy="25" r="12" fill="#334155" />
+    <path d="M 292 21 L 298 29 M 298 21 L 292 29" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Word Display & Pronunciation Section -->
+  <g transform="translate(30, 176)">
+    <!-- Word Title -->
+    <text x="0" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="32" font-weight="800" fill="#ffffff">
+      serendipity
+    </text>
+    
+    <!-- Part of Speech Pill -->
+    <rect x="0" y="46" width="60" height="22" rx="6" fill="url(#badgeGrad)" />
+    <text x="14" y="61" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#ffffff">NOUN</text>
+
+    <!-- Phonetic & Audio Buttons -->
+    <g transform="translate(70, 44)">
+      <rect x="0" y="0" width="130" height="26" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <!-- US Speaker -->
+      <path d="M 12 7 L 15 7 L 19 4 L 19 22 L 15 19 L 12 19 Z" fill="#38bdf8" />
+      <path d="M 21 10 C 23 12 23 14 21 16" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" fill="none" />
+      <text x="27" y="17" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">US</text>
+      
+      <!-- Phonetic String -->
+      <text x="50" y="17" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#94a3b8">/ˌser.ənˈdɪp.ə.ti/</text>
+    </g>
+
+    <!-- UK Audio pill -->
+    <g transform="translate(210, 44)">
+      <rect x="0" y="0" width="60" height="26" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <path d="M 10 7 L 13 7 L 17 4 L 17 22 L 13 19 L 10 19 Z" fill="#818cf8" />
+      <text x="24" y="17" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">UK</text>
+    </g>
+  </g>
+
+  <!-- Definition Card 1 -->
+  <g transform="translate(30, 264)" filter="url(#subtleGlow)">
+    <rect x="0" y="0" width="320" height="150" rx="18" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" />
+    
+    <circle cx="24" cy="24" r="10" fill="#38bdf8" opacity="0.2" />
+    <text x="21" y="28" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#38bdf8">1</text>
+    
+    <text x="44" y="28" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#94a3b8">Primary Definition</text>
+    
+    <text x="20" y="56" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#f8fafc">
+      The occurrence and development of
+    </text>
+    <text x="20" y="78" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#f8fafc">
+      events by chance in a happy or
+    </text>
+    <text x="20" y="100" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#f8fafc">
+      beneficial way.
+    </text>
+
+    <!-- Example in italics -->
+    <text x="20" y="130" font-family="'Inter', sans-serif" font-style="italic" font-size="12" font-weight="400" fill="#38bdf8">
+      "A fortunate stroke of serendipity."
+    </text>
+  </g>
+
+  <!-- Synonyms Section -->
+  <g transform="translate(30, 430)">
+    <text x="0" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">
+      SYNONYMS &amp; RELATED
+    </text>
+    
+    <!-- Synonym tags -->
+    <g transform="translate(0, 28)">
+      <rect x="0" y="0" width="68" height="28" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="12" y="18" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="#cbd5e1">chance</text>
+
+      <rect x="76" y="0" width="102" height="28" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="88" y="18" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="#cbd5e1">good fortune</text>
+
+      <rect x="186" y="0" width="58" height="28" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="198" y="18" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="#cbd5e1">fluke</text>
+    </g>
+
+    <g transform="translate(0, 64)">
+      <rect x="0" y="0" width="126" height="28" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="12" y="18" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="#cbd5e1">happy accident</text>
+
+      <rect x="134" y="0" width="90" height="28" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="146" y="18" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="#cbd5e1">providence</text>
+    </g>
+  </g>
+
+  <!-- Word of the Day Widget Card -->
+  <g transform="translate(30, 546)">
+    <rect x="0" y="0" width="320" height="84" rx="16" fill="rgba(99, 102, 241, 0.12)" stroke="#6366f1" stroke-width="1.2" />
+    <text x="16" y="24" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#a5b4fc" letter-spacing="1">
+      💡 WORD OF THE DAY
+    </text>
+    <text x="16" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="17" font-weight="800" fill="#ffffff">
+      Ephemeral
+    </text>
+    <text x="110" y="47" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="#94a3b8">
+      /ɪˈfem.ər.əl/ • adj.
+    </text>
+    <text x="16" y="68" font-family="'Inter', sans-serif" font-size="11.5" font-weight="400" fill="#cbd5e1">
+      Lasting for a very short time; transient.
+    </text>
+  </g>
+
+  <!-- Offline Status Pill in App -->
+  <g transform="translate(30, 642)">
+    <rect x="0" y="0" width="320" height="34" rx="10" fill="#0f172a" stroke="#22c55e" stroke-width="1" />
+    <circle cx="20" cy="17" r="4.5" fill="#22c55e" />
+    <text x="32" y="21" font-family="'Inter', sans-serif" font-size="11.5" font-weight="600" fill="#86efac">
+      Offline Database Active • 500,000+ Words Loaded
+    </text>
+  </g>
+
+  <!-- Bottom Navigation Bar -->
+  <g transform="translate(15, 686)">
+    <rect x="0" y="0" width="350" height="64" rx="20" fill="#090d16" stroke="#1e293b" stroke-width="1" />
+    
+    <!-- Tab 1: Search (Active) -->
+    <circle cx="50" cy="26" r="14" fill="rgba(56, 189, 248, 0.2)" />
+    <path d="M 46 22 A 4 4 0 1 1 54 22 A 4 4 0 1 1 46 22 M 53 25 L 56 28" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" fill="none" />
+    <text x="35" y="49" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#38bdf8">Dictionary</text>
+
+    <!-- Tab 2: Bookmarks -->
+    <path d="M 120 18 L 130 18 L 130 32 L 125 29 L 120 32 Z" stroke="#64748b" stroke-width="1.8" fill="none" />
+    <text x="104" y="49" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#64748b">Favorites</text>
+
+    <!-- Tab 3: Vocab Builder -->
+    <circle cx="200" cy="24" r="7" stroke="#64748b" stroke-width="1.8" fill="none" />
+    <path d="M 200 17 L 200 24 L 204 24" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" />
+    <text x="180" y="49" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#64748b">Vocab Quiz</text>
+
+    <!-- Tab 4: Settings -->
+    <circle cx="280" cy="24" r="5" stroke="#64748b" stroke-width="1.8" fill="none" />
+    <text x="263" y="49" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#64748b">Settings</text>
+  </g>
+</svg>

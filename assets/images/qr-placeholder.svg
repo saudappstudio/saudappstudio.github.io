@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background with rounded corners -->
+  <rect width="200" height="200" rx="16" fill="#ffffff" />
+  
+  <!-- Outer Finder Pattern Top-Left -->
+  <rect x="20" y="20" width="45" height="45" rx="6" fill="#0f172a" />
+  <rect x="28" y="28" width="29" height="29" rx="3" fill="#ffffff" />
+  <rect x="34" y="34" width="17" height="17" rx="2" fill="#6366f1" />
+
+  <!-- Outer Finder Pattern Top-Right -->
+  <rect x="135" y="20" width="45" height="45" rx="6" fill="#0f172a" />
+  <rect x="143" y="28" width="29" height="29" rx="3" fill="#ffffff" />
+  <rect x="149" y="34" width="17" height="17" rx="2" fill="#6366f1" />
+
+  <!-- Outer Finder Pattern Bottom-Left -->
+  <rect x="20" y="135" width="45" height="45" rx="6" fill="#0f172a" />
+  <rect x="28" y="143" width="29" height="29" rx="3" fill="#ffffff" />
+  <rect x="34" y="149" width="17" height="17" rx="2" fill="#6366f1" />
+
+  <!-- Data Blocks -->
+  <rect x="75" y="25" width="10" height="10" fill="#0f172a" />
+  <rect x="95" y="25" width="10" height="20" fill="#0f172a" />
+  <rect x="115" y="25" width="10" height="10" fill="#0f172a" />
+  <rect x="75" y="45" width="20" height="10" fill="#0f172a" />
+  <rect x="105" y="45" width="10" height="10" fill="#0f172a" />
+  
+  <rect x="25" y="75" width="10" height="15" fill="#0f172a" />
+  <rect x="45" y="80" width="15" height="10" fill="#0f172a" />
+  <rect x="25" y="100" width="10" height="10" fill="#0f172a" />
+  <rect x="45" y="105" width="20" height="10" fill="#0f172a" />
+
+  <!-- Center Play / Studio Icon -->
+  <rect x="75" y="75" width="50" height="50" rx="12" fill="#0f172a" stroke="#6366f1" stroke-width="2" />
+  <polygon points="93,88 113,100 93,112" fill="#38bdf8" />
+
+  <!-- Timing and lower data blocks -->
+  <rect x="135" y="75" width="15" height="10" fill="#0f172a" />
+  <rect x="160" y="75" width="15" height="15" fill="#0f172a" />
+  <rect x="140" y="95" width="10" height="20" fill="#0f172a" />
+  <rect x="160" y="105" width="15" height="10" fill="#0f172a" />
+
+  <rect x="75" y="135" width="15" height="15" fill="#0f172a" />
+  <rect x="100" y="135" width="20" height="10" fill="#0f172a" />
+  <rect x="80" y="160" width="15" height="15" fill="#0f172a" />
+  <rect x="105" y="155" width="15" height="20" fill="#0f172a" />
+
+  <rect x="135" y="135" width="10" height="10" fill="#0f172a" />
+  <rect x="155" y="135" width="20" height="15" fill="#0f172a" />
+  <rect x="140" y="155" width="15" height="20" fill="#0f172a" />
+  <rect x="165" y="160" width="10" height="15" fill="#0f172a" />
+</svg>

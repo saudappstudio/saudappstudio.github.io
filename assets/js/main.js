@@ -6,7 +6,7 @@
 // Global Studio Configuration (User can update these links anytime)
 const STUDIO_CONFIG = {
   developerName: "Saud App Studio",
-  supportEmail: "contact@saudappstudio.com",
+  supportEmail: "saudappstudio.support@gmail.com",
   playStoreDeveloperUrl: "https://play.google.com/store/apps/dev?id=saudappstudio",
   dictionaryAppUrl: "https://play.google.com/store/apps/details?id=com.saudappstudio.advancedenglishdictionary",
   githubUrl: "https://github.com/saudappstudio"
